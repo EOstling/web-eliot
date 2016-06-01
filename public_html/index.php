@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
-		<link rel="stylesheet" href="<?php echo $PREFIX; ?>lib/css/styles.css" type="text/css" />
-		<script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script data-require="bootstrap.js@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="script.js"></script>
-	</head>
-
+<?php
+$CURRENT_DIR = __DIR__;
+require_once("lib/template/head-utils.php");
+?>
 	<body class="sfooter">
 		<div class="sfooter-content">
 
@@ -48,8 +41,8 @@
 						<p>Web developer, computer programmer , chess enthusiast, coffee hound & game of thrones nerd </p>
 						<p>Hi everybody! This site is the best way of seeing a New Mexican Programmer evolve as the world evolves around him</p>
 						<iframe src="https://liveblitz.chessbase.com" width="350" height="350"></iframe>
-						<!--<img src="img/php.jpg" alt="php">-->
-						<img class="pull-right "src="img/php-logo.jpg" alt="logo" height="300px" width="300">
+						<img class="ng" src="img/angular.png" alt="angularific">
+						<img class="php "src="img/php-logo.jpg" alt="logo">
 					</div>
 				</div>
 			</section>

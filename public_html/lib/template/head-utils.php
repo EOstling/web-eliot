@@ -4,7 +4,9 @@
  * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/lib/_header.php FarmToYou Header
  **/
 
-require_once(dirname(dirname(__DIR__)) . "../root-path.php");
+// include the appropriate number of dirname() functions
+// on line 8 to correctly resolve your directory's path
+require_once(dirname(__DIR__, 2) . "/root-path.php");
 $CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
 $ROOT_DEPTH = substr_count($ROOT_PATH, "/");
 $DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
@@ -14,7 +16,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title><?php echo $PAGE_TITLE ?></title>
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
 		<link rel="stylesheet" href="<?php echo $PREFIX; ?> css/styles.css" type="text/css" />
 		<script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>

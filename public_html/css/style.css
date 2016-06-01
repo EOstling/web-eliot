@@ -4,8 +4,15 @@ body{
 	background-size: 450px 450px;
 }
 
-.pull-right{
-	float: right;
-	/*padding-right: 450px;*/
+.php{
 
+	float: right;
+	padding-right: 350px;
+	top: -3px;
+}
+
+.ng{
+	float: right;
+	float-offset: 20px;
+	top: -3px;
 }
