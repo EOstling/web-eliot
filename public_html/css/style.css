@@ -16,3 +16,7 @@ body{
 	float-offset: 20px;
 	top: -3px;
 }
+.transparent-bg{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+}

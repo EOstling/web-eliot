@@ -24,7 +24,7 @@ require_once("lib/template/head-utils.php");
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="main-nav">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="about-me/index.html">About me</a></li>
+							<li><a href="#about">About me</a></li>
 							<li><a href="portfolio/index.html">Portfolio</a></li>
 							<li><a href="current-events/index.html">Current events</a></li>
 							<li><a href="contact-me/index.html">Contact me</a></li>
@@ -37,7 +37,7 @@ require_once("lib/template/head-utils.php");
 		<!-- Splash Page -->
 		<section id="welcome" class="p-y-4">
 			<div class="container">
-				<div class="jumbotron">
+				<div class="jumbotron transparent-bg">
 					<div class="row">
 						<h1>Eliot Ostling</h1>
 						<p>Web developer, computer programmer , chess enthusiast, coffee hound & game of thrones nerd </p>
@@ -58,6 +58,10 @@ require_once("lib/template/head-utils.php");
 					</div>
 				</div>
 			</div>
+		</section>
+
+		<section id="about">
+			test
 		</section>
 
 	</div>
