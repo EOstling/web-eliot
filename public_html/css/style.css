@@ -1,7 +1,7 @@
 
 body{
-	background-image: url(../img/chess2.jpg);
-	background-size: 450px 450px;
+	background: url(../img/chess2.jpg) no-repeat;
+	background-size: cover;
 }
 
 .php{

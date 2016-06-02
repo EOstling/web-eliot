@@ -17,7 +17,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 	<head>
 		<meta charset="utf-8">
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
-		<link rel="stylesheet" href="<?php echo $PREFIX; ?> css/styles.css" type="text/css" />
+		<link rel="stylesheet" href="<?php echo $PREFIX; ?> css/style.css" type="text/css" />
 		<script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script data-require="bootstrap.js@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="script.js"></script>
