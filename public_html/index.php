@@ -50,10 +50,10 @@ require_once("lib/template/head-utils.php");
 							<iframe src="https://liveblitz.chessbase.com" width="100%" height="350"></iframe>
 						</div>
 						<div class="col-md-4">
-							<img class="img-responsive" src="img/angular.png" alt="angularific">
+							<img class="img-responsive" src="img/angular.svg" alt="angularific">
 						</div>
 						<div class="col-md-4">
-							<img class="img-responsive" src="img/php-logo.jpg" alt="logo">
+							<img class="img-responsive" src="img/php.svg" alt="logo">
 						</div>
 					</div>
 				</div>
