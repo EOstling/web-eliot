@@ -58,7 +58,16 @@ require_once("lib/template/head-utils.php");
 		</section>
 
 		<section id="about">
-			See above
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="well text-center">
+							<p>Coming Soon </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</section>
 
 
@@ -110,7 +119,7 @@ require_once("lib/template/head-utils.php");
 						</div>
 
 						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+						<div class="g-recaptcha" data-sitekey="6Lf2DSITAAAAAPTOdhrZZ7Gv3Va366TimJD3S7Lw"></div>
 
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
