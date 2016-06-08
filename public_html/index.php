@@ -25,9 +25,8 @@ require_once("lib/template/head-utils.php");
 					<div class="collapse navbar-collapse" id="main-nav">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#about">About me</a></li>
-							<li><a href="portfolio/index.html">Portfolio</a></li>
-							<li><a href="current-events/index.html">Current events</a></li>
-							<li><a href="contact-me/index.html">Contact me</a></li>
+							<li><a href="#current-events">Current events</a></li>
+							<li><a href="#contact-me">Contact me</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</nav>
@@ -41,9 +40,7 @@ require_once("lib/template/head-utils.php");
 					<div class="row">
 						<h1>Eliot Ostling</h1>
 						<p>Web developer, computer programmer , chess enthusiast, coffee hound & game of thrones nerd </p>
-						<p>Hi everybody! This site is the best way of seeing a New Mexican Programmer evolve as the world
-							evolves
-							around him</p>
+						<p>Hi everybody! This site is the best way of seeing all the different projects in which </p>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
@@ -63,6 +60,16 @@ require_once("lib/template/head-utils.php");
 		<section id="about">
 			test
 		</section>
+
+
+		<section id="current-events">
+		test
+		</section>
+
+		<section id="contact-me"
+					test
+		</section>
+
 
 	</div>
 	<footer class="p-y-4">
