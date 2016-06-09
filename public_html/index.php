@@ -40,7 +40,6 @@ require_once("lib/template/head-utils.php");
 					<div class="row">
 						<h1>Eliot Ostling</h1>
 						<p>Web developer, computer programmer , chess enthusiast, coffee hound & game of thrones nerd </p>
-						<p>Hi everybody! This site is the best way of seeing all the different projects in which </p>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
@@ -59,21 +58,34 @@ require_once("lib/template/head-utils.php");
 
 		<section id="about">
 			<div class="container">
-				<div class="row">
 					<div class="col-xs-12">
 						<div class="well text-center">
-							<p>Coming Soon </p>
+							<p>I am a Web developer that is a chess-centric! What does this really mean? Well I am currently working
+							on several apps that gives chess more coverage. Whilst this is my main goal, I am constantly looking
+							for better ways to solve the same problem. This methodolgoy can be applied to anything and trust
+							me I do! </p>
 						</div>
 					</div>
-				</div>
+
+			</div>
+
+
+		</section>
+
+		<section id="current-events">
+			<div class="container">
+					<div class="col-xs-12">
+						<div class="well text-center">
+							<p>Coming SOON! </p>
+						</div>
+					</div>
 			</div>
 
 		</section>
 
 
-		<section id="current-events">
-			Coming Soon!
-		</section>
+
+
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">

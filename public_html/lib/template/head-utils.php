@@ -49,4 +49,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="<?php echo $PREFIX; ?>js/form-validate.js"></script>
+		-		<script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
 	</head>
