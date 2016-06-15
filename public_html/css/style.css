@@ -26,9 +26,11 @@ body{
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
-.well{
-	color:white;
+.well {
+	color: white;
 	background-color: rgba(0, 0, 0, 0.3);
+	background-image: none;
+	border: none;
 }
 
 .well.text-center {
