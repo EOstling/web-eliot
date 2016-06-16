@@ -77,7 +77,7 @@ require_once("lib/template/head-utils.php");
 					<div class="col-xs-12">
 						<div class="well text-center">
 							<ul>Current Project:</ul>
-							<li>Coming Soon</li>
+
 						</div>
 					</div>
 			</div>
