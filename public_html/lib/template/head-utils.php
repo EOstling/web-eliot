@@ -4,8 +4,6 @@
  * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/lib/_header.php FarmToYou Header
  **/
 
-// include the appropriate number of dirname() functions
-// on line 8 to correctly resolve your directory's path
 require_once(dirname(__DIR__, 2) . "/root-path.php");
 $CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
 $ROOT_DEPTH = substr_count($ROOT_PATH, "/");
