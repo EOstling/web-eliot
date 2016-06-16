@@ -31,11 +31,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" />
 
-
-		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
@@ -47,6 +44,4 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="<?php echo $PREFIX; ?>js/form-validate.js"></script>
-		-		<script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
 	</head>
