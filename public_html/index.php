@@ -76,7 +76,8 @@ require_once("lib/template/head-utils.php");
 			<div class="container">
 					<div class="col-xs-12">
 						<div class="well text-center">
-							<p>Coming SOON! </p>
+							<ul>Current Project:</ul>
+							<li>Coming Soon</li>
 						</div>
 					</div>
 			</div>
@@ -89,8 +90,7 @@ require_once("lib/template/head-utils.php");
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<section id="contact-me"
-					<!--Begin Contact Form-->
+					<section id="contact-me">					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
