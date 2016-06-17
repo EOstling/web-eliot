@@ -60,10 +60,8 @@ require_once("lib/template/head-utils.php");
 			<div class="container">
 					<div class="col-xs-12">
 						<div class="well text-center">
-							<p>I am a Web developer that is a chess-centric! What does this really mean? Well I am currently working
-							on several apps that gives chess more coverage. Whilst this is my main goal, I am constantly looking
-							for better ways to solve the same problem. This methodolgoy can be applied to anything and trust
-							me I do! </p>
+							<p> I am Web developer that enjoys chess far too much. I am currently working on a chess site that is
+							unlike any other! If you are curious about what I am doing or want to help just contact me! Valar Morgulus </p>
 						</div>
 					</div>
 
@@ -81,7 +79,6 @@ require_once("lib/template/head-utils.php");
 						</div>
 					</div>
 			</div>
-
 		</section>
 
 
