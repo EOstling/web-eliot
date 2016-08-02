@@ -61,7 +61,7 @@ require_once("lib/template/head-utils.php");
 					<div class="col-xs-12">
 						<div class="well text-center">
 							<p> I am Web developer that enjoys chess far too much. I am currently working on a chess site that is
-							unlike any other! If you are curious about what I am doing or want to help just contact me! Valar Morgulus </p>
+							unlike any other! If you are curious about what I am doing or want to help just contact me. </p>
 						</div>
 					</div>
 
@@ -75,7 +75,8 @@ require_once("lib/template/head-utils.php");
 					<div class="col-xs-12">
 						<div class="well text-center">
 							<ul>Current Project:</ul>
-
+								<li>Ingenuity Software Labs: ASNP.NET MVC Workforce solutions website</li>
+							   <li></li>
 						</div>
 					</div>
 			</div>
